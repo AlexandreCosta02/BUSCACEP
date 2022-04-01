@@ -1,1 +1,73 @@
+body{
+	background-color: #BED6C7 !important;
+	margin: 0;
+}
 
+#imgLogo{
+	text-align: center;
+}
+
+#imgLogo img{
+	height: 20vh;
+}
+
+#buscaCEP{
+	border: 3px solid #6ebd3e;
+	border-radius: 10px;
+}
+
+#linhaCep{
+	text-align: center;
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+}
+
+#linhaCep label{
+	width: 100%;
+	font-style: italic;
+	color: black;
+}
+
+#linhaCep input{
+	width: 60%;
+	background-color: transparent;
+	outline: none;
+	border-left: solid 2px #6ebd3e;
+	border-top: solid 2px #6ebd3e;
+	border-right: solid 2px #6ebd3e;
+	border-bottom: solid 2px #6ebd3e;
+	border-radius: 30px;
+	font-weight: bold;
+	color: black;
+}
+
+#linhaCep button{
+	width: 40%;
+	font-weight: bold;
+	color: white;
+	border-radius: 30px;
+	margin-top: 2vh;
+}
+
+#lblInfo{
+	width: 100%;
+	font-style: italic;
+	color: black;
+}
+
+#informacoes{
+	text-align: left;
+	margin-bottom: 3vh;
+}
+
+#informacoes input{
+	width: 100%;
+	background-color: transparent;
+	outline: none;
+	border-left: none;
+	border-top: none;
+	border-right: none;
+	border-bottom: solid 2px #6ebd3e;
+	font-weight: bold;
+	color: black;
+}
